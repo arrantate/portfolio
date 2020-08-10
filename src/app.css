@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+:root {
+  --main-bg-color: #101820ff;
+  --secondary-bg-color: #f5f5f5;
+  --main-text-color: #b5b4b0;
+  --secondary-text-color: #5c5b57;
+  --feature-color: #00b35c;
+}
+
+body {
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
+  font-family: 'Nunito', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  color: var(--feature-color);
+  font-family: 'Nuinto', sans-serif;
+}
+
+h2 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li {
+  animation: fadeInAnimationFromRight ease 4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.container {
+  max-width: 800px;
+  margin: 4rem auto;
+  padding: 0 0.5rem;
+}
+
+.container2 {
+  max-width: 800px;
+  margin: auto;
+  padding: 0 0.5rem;
+}
+
+.hero {
+  width: 100%;
+  background-color: var(--secondary-bg-color);
+  margin: 1rem 0;
+  padding: 1rem 0;
+  text-align: center;
+  color: var(--secondary-text-color);
+  animation: fadeInAnimationlong ease 8s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.small-margin {
+  margin: 1rem 2.5rem;
+}
+
+.xsmall-margin {
+  margin: 1rem 1.5rem;
+}
+
+#intro {
+  animation: fadeInAnimationFromRight ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+#intro h1 {
+  margin: 0;
+}
+
+#links {
+  margin: 1rem;
+  text-align: right;
+  animation: fadeInAnimation ease 4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@media (min-width: 800px) {
+  #links {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
+
+.link {
+  background-color: var(--feature-color);
+  color: var(--main-bg-color);
+  padding: 0.5rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.feature-color {
+  color: var(--feature-color);
+}
+
+#social {
+  position: fixed;
+  background-color: var(--main-bg-color);
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  width: 100%;
+  text-align: center;
+  animation: fadeInAnimation ease 4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.fade4 {
+  animation: fadeInAnimation ease 4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInAnimationFromRight {
+  0% {
+    opacity: 0;
+    transform: translate(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes fadeInAnimationlong {
+  0% {
+    opacity: 0;
+  }
+  15% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

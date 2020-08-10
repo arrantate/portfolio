@@ -1,25 +1,19 @@
 import React from 'react';
-import Nav from './components/layout/Nav';
-import Footer from './components/layout/Footer';
+import Links from './components/layout/Links';
+import Social from './components/layout/Social';
 import Home from './components/pages/Home';
-import Projects from './components/pages/Projects';
-import Certificates from './components/pages/Certificates';
-import './skeleton.css';
+import './app.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div className='container'>
-      <Router>
-        <Nav />
-        <Switch>
-          <Route exact path='/' component={Home} />
-          <Route exact path='/projects' component={Projects} />
-          <Route exact path='/certificates' component={Certificates} />
-        </Switch>
-        <Footer />
-      </Router>
-    </div>
+    <Router>
+      <Links />
+      <Switch>
+        <Route exact path='/' component={Home} />
+      </Switch>
+      <Social />
+    </Router>
   );
 }
 
