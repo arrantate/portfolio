@@ -4,20 +4,27 @@ import Badges from '../Badges';
 const Home = () => {
   return (
     <div>
-      <h1>Hello</h1>
+      <h1>Arran Tate</h1>
+      <h2>Web Developer</h2>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In finibus
-        vehicula erat cursus tincidunt. Etiam rhoncus sem vestibulum eros
-        egestas venenatis. Ut fermentum orci fringilla est hendrerit, sit amet
-        efficitur nulla aliquam. Etiam tincidunt nec nibh sit amet facilisis.
-        Donec laoreet bibendum augue eu viverra. Vivamus blandit libero
-        imperdiet elit dictum, eget hendrerit urna lobortis. Mauris quis diam
-        eget sem cursus egestas id in purus. Nulla ut sollicitudin eros,
-        eleifend porttitor lorem.
+        Thanks for visiting my website! I've been learning python for the last
+        year and have recently transitioned into the world of JavaScript after
+        discovering how enjoyable web development can be!
       </p>
+      <p>
+        Since I started out with Flask I have a good understanding of how the
+        back end works, So my main focus now is to improve my front end
+        abilities to acheive a full stack title.
+      </p>
+      <p>Take a look at the technologies I work with!</p>
       <ul>
         <li>HTML5</li>
-        <li>CSS3</li>
+        <li>
+          CSS3
+          <ul>
+            <li>Bootstrap</li>
+          </ul>
+        </li>
         <li>
           JavaScript
           <ul>
@@ -30,10 +37,10 @@ const Home = () => {
           Python
           <ul>
             <li>Flask</li>
+            <li>Some Django</li>
           </ul>
         </li>
       </ul>
-      <Badges />
     </div>
   );
 };

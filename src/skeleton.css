@@ -563,4 +563,20 @@ there.
 
 .badge {
   text-align: center;
+  border: 1px solid #101010;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.badge-img {
+  max-width: 270px;
+  height: auto;
+  vertical-align: middle;
+}
+
+.badge-img-box {
+  position: relative;
+  height: 270px;
+  line-height: 270px;
+  width: 100%;
 }

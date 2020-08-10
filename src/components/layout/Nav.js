@@ -10,6 +10,9 @@ const Nav = () => {
       <Link to='/projects' className='button'>
         Projects
       </Link>
+      <Link to='/certificates' className='button'>
+        Certificates
+      </Link>
     </nav>
   );
 };
