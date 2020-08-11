@@ -156,3 +156,38 @@ ul li {
     opacity: 1;
   }
 }
+
+.project {
+  position: relative;
+}
+
+.project img {
+  width: 90%;
+  border: 1px solid var(--secondary-text-color);
+  border-radius: 0.3rem;
+}
+
+.project-info {
+  padding: 1rem;
+  border: 1px solid var(--secondary-text-color);
+  border-radius: 0.2rem;
+  background-color: var(--main-bg-color);
+  width: 30%;
+  position: absolute;
+  right: 0;
+  top: 100px;
+}
+
+.project-info ul {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+.project-info .links {
+  text-align: center;
+}
+
+.project-info .link {
+  padding: 0.2rem;
+}
