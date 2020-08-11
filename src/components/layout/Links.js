@@ -8,6 +8,9 @@ const Links = () => {
         <Link className='link' to='/'>
           Home
         </Link>
+        <Link className='link' to='/portfolio'>
+          Portfolio
+        </Link>
       </span>
     </nav>
   );
