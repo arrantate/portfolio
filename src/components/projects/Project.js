@@ -9,6 +9,7 @@ const Project = ({ project }) => {
 
       <div className='project-info'>
         <h2>{name}</h2>
+
         <p>{description}</p>
         <ul>
           {tech.map((tech) => {

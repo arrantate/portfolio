@@ -27,7 +27,7 @@ const Home = () => {
           </span>
         </div>
       </div>
-      <div className='container fade4'>
+      <div className='container'>
         <h3>The story so far...</h3>
         <p>
           I have spent the last few years of my life as an aircraft engineer in
